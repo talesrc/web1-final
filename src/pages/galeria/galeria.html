@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./galeria.css">
+    <link rel="icon" type="image/x-icon" href="../../../public/favicon.png">
+    <title>Galeria</title>
+</head>
+<body>
+    <header class="header">
+        <h3 class="title">EDITORA PERNAMBUCO</h3>
+        <nav class="nav-header">
+            <h5 class="nav-element"><a href="../home/index.html">Home</a></h5>
+            <h5 class="nav-element"><a href="../galeria/galeria.html">Galeria</a></h5>
+            <h5 class="nav-element"><a href="../quemSomos/quemSomos.html">Quem somos?</a></h5>
+            <h5 class="nav-element"><a href="../acessoRestrito/acessoRestrito.html">Acesso Restrito</a></h5>
+        </nav>
+    </header>
+    <title class="title-page">Galeria</title>
+
+    <div class="slide-container">
+
+        <div class="slides transition">
+          <div class="image-number">1 / 4</div>
+          <img src="../../img/slide-1.jpg">
+        </div>
+      
+        <div class="slides transition">
+          <div class="image-number">2 / 4</div>
+          <img src="../../img/slide-4.jpg">
+        </div>
+      
+        <div class="slides transition">
+          <div class="image-number">3 / 4</div>
+          <img src="../../img/slide-3.jpg">
+        </div>
+
+        <div class="slides transition">
+            <div class="image-number">4 / 4</div>
+            <img src="../../img/slide-5.jpg">
+        </div>
+
+        <a class="ant" onclick="slidePosition(-1)">&#10094;</a>
+        <a class="prox" onclick="slidePosition(1)">&#10095;</a>
+
+      </div>
+
+    <footer class="footer">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3">
+            <p>Para mais informações, entre em contato:</p>
+            <ul>
+                <li class="item"><strong>Telefone: </strong>(81) 9 8765-4321</li>
+                <li class="item"><strong>Email: </strong>informacoes@editorapernambuco.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script src="../../scripts/script.js"></script>
+</html>

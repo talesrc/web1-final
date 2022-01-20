@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.header {
+    background-color: #306B70;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: #B8EDF2;
+    color: #1C6B73;
+    border-radius: 1.5rem;
+    width: 500px;
+    margin-right: 50px;
+}
+
+.title-page {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-weight: 300;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-element {
+    margin-right: 25px;
+}
+
+.nav-element > a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #1C6B73;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.div1, .div3 {
+    width: 20%;
+}
+
+.div2 {
+    width: 60%;
+}
+
+.section {
+    padding: 15px 0;
+}
+
+.paragrafo2 {
+    width: 80vw;
+    display: flex;
+    text-align: center;
+}
+
+.paragrafo3 {
+    margin: 15px 0;
+}
+
+.title-book {
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.trabalheConosco {
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 30px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8EDF2;
+}
+
+.trabalheConosco > a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 18px;
+    margin: 5px 10px;
+    padding: 7px;
+    
+}
+
+.cards > p {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.metrics {
+    display: flex;
+    margin: 20px 0;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+.item {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media only screen and (max-device-width: 800px) {
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 230px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-header > h5 {
+        margin-bottom: 3px;
+    }
+
+    .title {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer > .div3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer > .div1, .div2 {
+        width: 0%;
+    }
+
+    li {
+        text-decoration: none;
+    }
+
+    section {
+        width: 100%;
+        padding: 2px;
+    }
+
+    .section {
+        text-align: center;
+    }
+
+    .title-book {
+        text-align: center;
+    }
+
+    .metrics {
+        display: flex;
+        flex-direction: column;
+    }
+}

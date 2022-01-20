@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./trabalheConosco.css">
+    <link rel="icon" type="image/x-icon" href="../../../public/favicon.png">
+    <title>Trabalhe Conosco</title>
+</head>
+<body>
+    <header class="header">
+        <h3 class="title">EDITORA PERNAMBUCO</h1>
+        <nav class="nav-header">
+            <h5 class="nav-element"><a href="../home/index.html">Home</a></h5>
+            <h5 class="nav-element"><a href="../galeria/galeria.html">Galeria</a></h5>
+            <h5 class="nav-element"><a href="../quemSomos/quemSomos.html">Quem somos?</a></h5>
+            <h5 class="nav-element"><a href="../acessoRestrito/acessoRestrito.html">Acesso Restrito</a></h5>
+        </nav>
+    </header>
+    <title class="title-page"></title>
+
+    <div class="container">
+        <div class="div1"></div>
+
+        <section class="div2 content">
+
+            <form onsubmit="return validacao()" class="form">
+
+                <h1 class="title-form">Trabalhe Conosco</h1>
+
+                <div class="cont-2">
+                    <input name="name" type="text" placeholder="Nome" id="nome" >
+
+                    <input type="text" placeholder="Email" name="email"> 
+
+                    <input type="text" name="telefone" placeholder="Celular" onblur="mascaradeTelefone(this)" 
+                    onfocus="tiraHifen(this)"> 
+
+                    <select name="estado">
+                        <option value="" selected disabled>Estado</option>
+                        <option>Acre</option>
+                        <option>Alagoas</option>
+                        <option>Amapá</option>
+                        <option>Amazonas</option>
+                        <option>Bahia</option>
+                        <option>Ceará</option>
+                        <option>Espírito Santo</option>
+                        <option>Goiás</option>
+                        <option>Maranhão</option>
+                        <option>Mato Grosso</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pará</option>
+                        <option>Paraiba</option>
+                        <option>Paraná</option>
+                        <option>Pernambuco</option>
+                        <option>Piauí</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Norte</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Rondônia</option>
+                        <option>Roraima</option>
+                        <option>Santa Catarina</option>
+                        <option>São Paulo</option>
+                        <option>Sergipe</option>
+                        <option>Tocantins</option>
+                    </select>
+                    
+                    <select name="areaInteresse">
+                        <option value="" selected disabled>Área de Interesse</option>
+                        <option>Administração</option>
+                        <option>Tecnologia da Informação</option>
+                    </select>
+
+                    <input id="arquivo" type="file" accept=".doc, .docx, .pdf">
+                </div>
+
+                <button type="submit" class="btn">Enviar Currículo</button>
+                
+            </form>
+
+        </section>
+
+        <div class="div3"></div>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3">
+            <p>Para mais informações, entre em contato:</p>
+            <ul>
+                <li class="item"><strong>Telefone: </strong>(81) 9 8765-4321</li>
+                <li class="item"><strong>Email: </strong>informacoes@editorapernambuco.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script src="../../scripts/script.js"></script>
+
+</html>
